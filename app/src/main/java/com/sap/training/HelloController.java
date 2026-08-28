@@ -8,6 +8,13 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from SAP DevOps Training!";
+        return "Hello Sameer from SAP DevOps Training!";
     }
+
+//    @GetMapping("/{id}")
+//    public String lol(@PathVariable Long id ){
+//        return id+ " is you";
+//    }
 }
+
+//https://api.cf.us10-001.hana.ondemand.com
